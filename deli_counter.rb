@@ -11,5 +11,5 @@ def line(line)
 end
 
 def take_a_number(line, name)
-  return line << name
+  return line.push(name)
 end
