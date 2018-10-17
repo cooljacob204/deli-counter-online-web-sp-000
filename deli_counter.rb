@@ -7,4 +7,5 @@ def line(line)
     output << "The line is currently:"
     line.each_with_index { |value, index| output << " #{index + 1}. #{value}."}
   end
+  puts output
 end
