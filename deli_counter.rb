@@ -20,5 +20,5 @@ def now_serving(line)
   if (line.size > 0)
     puts "Now serving #{line.shift}"
   end
-  
+  return line
 end
