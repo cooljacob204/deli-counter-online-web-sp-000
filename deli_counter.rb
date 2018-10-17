@@ -10,3 +10,6 @@ def line(line)
   puts output
 end
 
+def take_a_number(line, name)
+  return line << name
+end
