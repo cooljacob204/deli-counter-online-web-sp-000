@@ -15,5 +15,6 @@ def take_a_number(line, name)
   return line << name
 end
 
-def now_serving()
+def now_serving(line)
+  puts ""
 end
