@@ -5,7 +5,7 @@ def line(line)
   output << "The line is currently empty." if (line.size == 0)
   if (line.size > 0)
     output << "The line is currently:"
-    line.each_with_index { |value, index| output << " #{index + 1}. #{value}."}
+    line.each_with_index { |value, index| output << " #{index + 1}. #{value}"}
   end
   puts output
 end
